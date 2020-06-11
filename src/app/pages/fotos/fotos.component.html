@@ -1,0 +1,9 @@
+
+  <h1 class="text-center">Conocimientos en:</h1>
+<div class="card-columns mt-5">
+    <div class="card" *ngFor="let item of items | async">
+      <img [src]="item.url" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">{{item.nombre}}</h5>
+         </div>
+    </div>

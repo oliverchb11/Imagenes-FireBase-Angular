@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "firefotos-b69cd": {
+      "hosting": {
+        "FotosFirebase": [
+          "firefotos-b69cd"
+        ]
+      }
+    }
+  }
+}
